@@ -35,7 +35,8 @@
 .banner-content h1{
 	font-size: 45px;
 	font-family:raleway;
-}.banner-content h4{
+}
+.banner-content h4{
 	font-family:raleway;
 }
  .logo{
@@ -43,6 +44,9 @@
 	 width:10px;
  }
  /*-----logo-sec-------*/
+ .logo-sec{
+	 min-height:150px;
+ }
 .logo-items{
 	min-width:20px;
 	filter:grayscale(100);
@@ -415,6 +419,9 @@ ul{
 	border:2px dotted red;
 	border-radius:50%;
 }
+.btn-danger:hover{
+	border:white;
+}
 form.row{
 	padding: 30px 15px;
 	background: #fff;
@@ -427,10 +434,6 @@ form.row{
 	margin-top:7px;
 	font-size: 15px;
 	padding: 10px;
-}
-.form-control:focus{
-	border-color:#00bcd4;
-	outline:0px;
 }
 /*---------footer-info-----*/
 .footer-content.sec h3:after{
@@ -450,7 +453,7 @@ form.row{
 	margin-left:10px;
 }
 .footer-value input{
-	padding:0 0 4px 150px;
+	padding:0 0 4px 170px;
 }
 .footer-list li{
 	line-height:35px;
